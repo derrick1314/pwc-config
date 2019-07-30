@@ -1,0 +1,10 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: product-service
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///pwc_product?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
