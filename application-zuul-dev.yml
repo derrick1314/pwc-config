@@ -15,4 +15,4 @@ zuul:
     common:
       path: /common/**
       serviceId: common-service
-  prefix: /services #请求的前缀
+  prefix: /services #请求路径的前缀
